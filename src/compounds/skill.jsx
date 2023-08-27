@@ -40,14 +40,14 @@ const Skill = ()=>{
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide><div className="sa">
-        <p className="sk">C++ is first language i ever learn  as a cse student.And It is more understandable then C</p>
+        <p className="sk">C++ is first language I ever learn  as a cse student.And It is more understandable then C</p>
         <img src={cpp} alt="" className="simg" />
         <p className="sk">I studied till OOPs</p>
         </div></SwiperSlide>
         <SwiperSlide><div className="sa">
         <p className="sk">Python is  language Which everyone can easily in couple of days .And it is good to code,but the thing is u need learn  python DSA to build an efficient code</p>
         <img src={pyt} alt="" className="simg" />
-        <p className="sk">I studied till OOPs,Django(I need to see this again becoz i work in year ago),FastApi(i know till CRUD)</p>
+        <p className="sk">I studied till OOPs,Django(I need to see this again becoz I work in year ago),FastApi(i know till CRUD)</p>
         </div></SwiperSlide>
         <SwiperSlide><div className="sa">
         <p className="sk">JavaScript is the language I understand quickly bcoz I already know c++ and python</p>
@@ -55,14 +55,14 @@ const Skill = ()=>{
         <p className="sk">I studied till basics,DOM</p>
         </div></SwiperSlide>
         <SwiperSlide><div className="sa">
-        <p className="sk">Node is Backend with studied after I got confused by django,but it easy to connect to db and we can easily figure out the workflow</p>
+        <p className="sk">Node is Backend with studied after I got confused by django,But it easy to connect to db and we can easily figure out the workflow</p>
         <img src={nd} alt="" className="simg" />
-        <p className="sk">i dont know what to say but use it in some projects</p>
+        <p className="sk">I dont know what to say but use it in some projects</p>
         </div></SwiperSlide>
         <SwiperSlide><div className="sa">
         <p className="sk">React is sooo flexible package .it main concentrated on reusablity.</p>
         <img src={ra} alt="" className="simg" />
-        <p className="sk">I studied till resently so I pratice with this project lol</p>
+        <p className="sk">I studied till recently so I pratice with this project lol</p>
         </div></SwiperSlide>
         <SwiperSlide><div className="sa">
         <p className="sk">mongodb is database i learned couple weeks ago.And It is easy to access, and they provide free cluster which is actually quit good for practicing </p>
