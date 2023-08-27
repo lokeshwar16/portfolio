@@ -40,7 +40,7 @@ const Skill = ()=>{
       onSwiper={(swiper) => console.log(swiper)}
     >
       <SwiperSlide><div className="sa">
-        <p className="sk">C++ is first language i ever learn  as a cse student.And it is more understandable then C</p>
+        <p className="sk">C++ is first language i ever learn  as a cse student.And It is more understandable then C</p>
         <img src={cpp} alt="" className="simg" />
         <p className="sk">I studied till OOPs</p>
         </div></SwiperSlide>
@@ -50,29 +50,29 @@ const Skill = ()=>{
         <p className="sk">I studied till OOPs,Django(I need to see this again becoz i work in year ago),FastApi(i know till CRUD)</p>
         </div></SwiperSlide>
         <SwiperSlide><div className="sa">
-        <p className="sk">javaScript is the language i understand quickly bcoz i already know c++ and python</p>
+        <p className="sk">JavaScript is the language I understand quickly bcoz I already know c++ and python</p>
         <img src={js} alt="" className="simg" />
         <p className="sk">I studied till basics,DOM</p>
         </div></SwiperSlide>
         <SwiperSlide><div className="sa">
-        <p className="sk">Node is Backend with studied after i got confused by django,but it easy to connect to db and we can easily figure out the workflow</p>
+        <p className="sk">Node is Backend with studied after I got confused by django,but it easy to connect to db and we can easily figure out the workflow</p>
         <img src={nd} alt="" className="simg" />
         <p className="sk">i dont know what to say but use it in some projects</p>
         </div></SwiperSlide>
         <SwiperSlide><div className="sa">
         <p className="sk">React is sooo flexible package .it main concentrated on reusablity.</p>
         <img src={ra} alt="" className="simg" />
-        <p className="sk">I studied till resend so i pratice with this project lol</p>
+        <p className="sk">I studied till resently so I pratice with this project lol</p>
         </div></SwiperSlide>
         <SwiperSlide><div className="sa">
-        <p className="sk">mongodb is database i resendly learned .And it is easy to access, and they provide free cluster which is actually quit good for practicing </p>
+        <p className="sk">mongodb is database i learned couple weeks ago.And It is easy to access, and they provide free cluster which is actually quit good for practicing </p>
         <img src={mdb} alt="" className="simg" />
         <p className="sk">I studied CRUD and used it in MERN project</p>
         </div></SwiperSlide>
         <SwiperSlide><div className="sa">
-        <p className="sk">Azure is cloudplatform i resendly learned .those implementation more similar to the Aws </p>
+        <p className="sk">Azure is cloudplatform which i use to work last month.those implementation more similar to the Aws </p>
         <img src={az} alt="" className="simg" />
-        <p className="sk">Bcoz of billing i didnt do project ,but i use to practice in it sometimes</p>
+        <p className="sk">Bcoz of billing I didnt do project ,but I use to practice in it sometimes</p>
         </div></SwiperSlide>
         
         

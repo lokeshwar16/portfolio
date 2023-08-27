@@ -9,7 +9,7 @@ const About = ()=>{
     return <section id ="About">
         <div className="edu">
             <h1 className="abouttitle">Education</h1>
-            <p className="aboutme">im web developer,i love to code in python ,jaavscript.Resendly i complete my web development course in udemy.after that i done userid login using mern stack And i use to do some application works in azure and aws playtforms</p>
+            <p className="aboutme">im web developer,i love to code in python ,jaavscript.Resently I complete my web development course in udemy.After that I done userid login using mern stack And I use to do some application works in Azure and AWS playtforms</p>
             <div className="history">
                 <img src={school} alt="" className="school" />
                 <div className="std">
