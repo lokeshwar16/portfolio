@@ -1,0 +1,147 @@
+#Footer{
+    margin:0 3cm;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+    font-weight: 700;
+    height: 110vh;
+    background-color: #16c68f;
+    border: none;
+    border-radius: 30px;
+}
+.contacttitle{
+    font-size: 3rem;
+    margin: 2cm;
+}
+
+.contactme{
+    text-align: center;
+    margin: auto;
+    width:70%;
+    font-size: 1.5rem;
+    margin-bottom: 1cm;
+}
+input{
+    width:50%;
+    height: 5mm;
+    justify-content: center;
+    margin-top: 1cm;
+    background-color: white;
+    padding: 5mm;
+    border: none;
+    border-radius: 30px;
+}
+.msge{
+    width:50%;
+    height: 5mm;
+    justify-content: center;
+    margin-top: 1cm;
+    background-color: white;
+    padding: 20mm;
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 0.5cm;
+
+}
+.contactform{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12cm;
+    
+}
+.conbtn{
+    border-radius: 30px;
+    width: 4cm;
+    font-size: large;
+    background-color: #ffffff;
+    color :#16c68f;
+    padding: 1rem;
+    border: none;
+    margin-left: 3cm;    
+}
+
+.conbtn:hover{
+    background-color: rgb(30, 30, 30);
+}
+.end{
+    margin: 3cm;
+}
+
+.soc{
+    margin: 1cm;
+}
+
+
+@media screen and (max-width:900px){
+    #Footer{
+        margin: 0;
+    }
+    
+}
+@media screen and (max-width:500px){
+    .contact{
+        margin: 8cm 2cm 2cm;
+        height: 50vh;
+        margin-left: 2cm;
+        margin-right: -13cm;
+    }
+    .contacttitle{
+        font-size: 2rem;
+        margin: 3rem 0;
+        padding:0;
+    }
+    .contactme{
+        font-size: 1rem;
+        margin: 1;
+    }
+    input{
+        width:70%;
+        height: 2mm;
+        justify-content: center;
+        margin-top: 0.4cm;
+        background-color: white;
+        padding: 3mm;
+        border: none;
+        border-radius: 30px;
+    }
+    .msge{
+        width:70%;
+        height: 2mm;
+        justify-content: center;
+        margin-top: 0.4cm;
+        background-color: white;
+        padding: 10mm;
+        border: none;
+        border-radius: 15px;
+        margin-bottom: 0.5cm;
+    
+    }
+    .contactform{
+        display: flex;
+        flex-direction: column;
+        margin: 3mm;
+        margin-left: 2cm;
+        
+    }
+    .conbtn{
+        border-radius: 30px;
+        width: 2cm;
+        font-size: medium;
+        background-color: #ffffff;
+        color :#16c68f;
+        padding: 0.5rem;
+        border: none;
+        margin-left: 1.4cm;    
+    }
+    .end{
+        margin-top: 2cm;
+        margin-right: -16cm;
+        margin-left: 0;        
+    }
+    
+    
+    
+}

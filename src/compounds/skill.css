@@ -1,0 +1,60 @@
+.sk{
+    height:100%;
+    width: 90%;
+    padding: 2rem;
+    text-align: center;
+    margin-left: 2cm;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.stitle{
+    font-size: 3rem;
+}
+#skill{
+    height: 110vh;
+    text-align: center;
+    justify-content: center;
+    margin: 0 3cm;
+    
+}
+.simg{
+    object-fit: contain;
+    width:10cm;
+    height: 10cm;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:500) {
+    
+    .sa{
+        height:50vh;
+        width: 200vw;
+        padding: 1rem;
+        text-align: left;
+        font-size: 3mm;
+        font-weight: 100;
+        margin-right: -5cm;
+    }
+    .stitle{
+        font-size: 1rem;
+    }
+    #skill{
+        justify-content: center;
+        margin-left: 5cm;
+        margin-right: -5cm;
+        overflow-y: hidden;
+        height: 300vh;
+        
+    }
+    .simg{
+        object-fit: contain;
+        width:80vw;
+        height: 80vh;
+        margin-bottom: 0;
+    }
+    .swiper{
+        width:100vw;
+        height: 100vh;
+    }
+    
+}

@@ -1,0 +1,73 @@
+#About{
+    margin:0 3cm;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.edu{
+    font-weight: 700;
+}
+.abouttitle{
+    font-size: 3rem;
+    margin: 2cm;
+}
+
+.aboutme{
+    text-align: center;
+    margin: auto;
+    width:70%;
+    font-size: 1.5rem;
+    margin-bottom: 1cm;
+}
+.std{
+    text-align: left;
+    background-color: #16c68f;
+    display: flex;
+    flex-direction: column;
+    margin:2cm;
+    border:none;
+    border-radius: 15px;
+    padding: 2rem;
+    width: 50%;
+    
+}
+.history{
+    justify-content: center;
+    text-align: center;
+    margin-left: 7cm;
+    box-sizing: none;
+    line-height: 0.9cm;
+    
+}
+.school{
+    float:left;
+    height:4cm;
+    margin-right: 2cm;
+    padding-top: 1cm;
+    top: 1cm;
+}
+.std:hover{
+    background-color: white;
+    color: #16c68f;
+}
+
+@media screen and (max-width:900px){
+    .history{
+        margin:0;
+        width: 100vw;
+    }
+    .aboutme{
+        font-size: 5mm;
+        width: 100vw;
+        height:25vh
+    }    
+    .school{
+        float: none;
+        margin-left: 2cm;
+    }
+    .std{
+        margin-left: 4cm;
+    }
+    
+}

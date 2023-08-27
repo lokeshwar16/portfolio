@@ -1,0 +1,91 @@
+.hob{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 2cm;
+}.hobl{
+    font-size: 1rem;
+    font-weight: 700;    
+    margin-top: 2cm;
+}
+.htitle{
+    font-size: 3rem;
+    margin: 2cm;
+}
+#hobby{
+    text-align: center;
+    margin:2cm 3cm;
+    line-height: 0.8cm;
+}
+.l{
+    height: 10cm;
+    width: 10cm;
+    float: left;
+    padding-left: 2.5cm;
+}
+.li{
+    height: 10cm;
+    width: 10cm;
+    border-radius: 15px;
+    margin: 0cm;
+}
+.ri{
+    height: 10cm;
+    width: 10cm;
+    border-radius: 15px;
+    margin: 0cm;
+
+}
+.r{
+    height: 10cm;
+    width: 10cm;
+    float:right;
+    padding-right: 2.5cm;
+}
+@media screen and (max-width:500) {
+    .hob{
+        font-size: 0.3rem;
+        font-weight: 400;
+        margin-top: 2cm;
+        margin-right: -5cm;
+    }.hobl{
+        font-size: 0.3rem;
+        font-weight: 400;
+        margin-right: -5cm;
+
+        margin-top: 4%;
+    }
+    .htitle{
+        font-size: 3rem;
+        margin: 2cm;
+    }
+    #hobby{
+        text-align: center;
+        margin:2cm 0cm;
+        line-height: 0.8cm;
+    }
+    .l{
+        height: 4cm;
+        width: 4cm;
+        padding-left: 0.5cm;
+    }
+    .li{
+        height: 4cm;
+        width: 4cm;
+        border-radius: 15px;
+        margin: 0cm;
+    }
+    .ri{
+        height: 4cm;
+        width: 4cm;
+        border-radius: 15px;
+        margin: 0cm;
+    
+    }
+    .r{
+        height: 4cm;
+        width: 4cm;
+        padding-right: 0.5cm;
+    }
+    
+    
+}

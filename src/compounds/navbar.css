@@ -1,0 +1,55 @@
+.navbar{
+    height: 5 rem;
+    width:  100 vw;
+    margin: 0.5cm 3cm;
+    padding: 1rem 2rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    position: sticky;
+    flex-direction: row;
+}
+.logo{
+    object-fit: cover;
+    width: 2rem;
+    height: 3rem;
+}
+.msg{
+    object-fit: cover;
+    height: 5mm;
+    width: 5mm;
+    margin-right: 1rem;
+}
+.navtem{
+    margin: 2rem;
+    cursor: pointer;
+    
+}
+.navbtn{
+    border-radius: 30px;
+    background-color: #16c68f;
+    color : white;;
+    padding: 1rem;
+    border: none;
+    display: flex;
+    font-weight: 500;
+
+}
+.menu{
+    margin-top: 1rem;
+}
+
+.navtem:hover{
+    color: #16c68f;
+    border-bottom: 2px solid #16c68f;
+    padding-bottom: 0.5rem;
+}
+.navbtn:hover{
+    background-color: #009365;
+}
+@media screen and (max-width:500px){
+    .navbar{
+      margin: 0;
+    }
+    
+  }
