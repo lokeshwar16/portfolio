@@ -2,14 +2,15 @@
     font-size: 1rem;
     font-weight: 700;
     margin-top: 2cm;
+    margin-left: 3cm;
 }.hobl{
     font-size: 1rem;
     font-weight: 700;    
     margin-top: 2cm;
+    padding-left: 3cm;
 }
 .htitle{
     font-size: 3rem;
-    margin: 2cm;
 }
 #hobby{
     text-align: center;
@@ -40,6 +41,7 @@
     width: 10cm;
     float:right;
     padding-right: 2.5cm;
+    margin-left: -5cm;
 }
 @media screen and (max-width:500) {
     .hob{
@@ -50,7 +52,7 @@
     }.hobl{
         font-size: 0.3rem;
         font-weight: 400;
-        margin-right: -5cm;
+        margin-right: 50%;
 
         margin-top: 4%;
     }
@@ -67,6 +69,7 @@
         height: 4cm;
         width: 4cm;
         padding-left: 0.5cm;
+        float: none;
     }
     .li{
         height: 4cm;
@@ -85,6 +88,7 @@
         height: 4cm;
         width: 4cm;
         padding-right: 0.5cm;
+        float: none;
     }
     
     

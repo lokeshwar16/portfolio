@@ -9,12 +9,12 @@
 }
 .stitle{
     font-size: 3rem;
+    margin: 2cm 0;
 }
 #skill{
     height: 110vh;
     text-align: center;
     justify-content: center;
-    margin: 0 3cm;
     
 }
 .simg{
@@ -27,23 +27,20 @@
 @media screen and (max-width:500) {
     
     .sa{
-        height:50vh;
+        height:100vh;
         width: 200vw;
         padding: 1rem;
         text-align: left;
         font-size: 3mm;
         font-weight: 100;
-        margin-right: -5cm;
+        margin-right: -10cm;
     }
     .stitle{
         font-size: 1rem;
     }
     #skill{
         justify-content: center;
-        margin-left: 5cm;
-        margin-right: -5cm;
-        overflow-y: hidden;
-        height: 300vh;
+        height: 100vh;
         
     }
     .simg{
